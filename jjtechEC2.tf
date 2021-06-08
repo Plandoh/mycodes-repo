@@ -1,7 +1,7 @@
 provider "aws" {
   region     = "us-west-2"
-  access_key = "AKIAT6ZMAAXG3XAMCVEB"
-  secret_key = "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"
+  access_key = "xxxxxxxxxxx"
+  secret_key = "xxxxxxx"
 }
     resource "aws_instance" "jjtechweb" {
       ami = var.ami_id
